@@ -58,7 +58,7 @@ global.vcardowner = ['212693219828'] //ur owner number
 global.ownername = "𝐈 𝐋 𝐘 𝐀 𝐒  𝐊 𝐈  🌩️" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.location = "Morocco, Béni Mellal, Khénifra" //ur location
 
 //bot bomdy 
 global.owner = ['212693219828']
@@ -69,7 +69,7 @@ global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
 global.reactmoji = "🌚" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "𝐈 𝐋 𝐘 𝐀 𝐒  𝐊 𝐈  🌩️ 👨🏻‍💼 " //ur sticker watermark packname
+global.packname = "𝐈 𝐋 𝐘 𝐀 𝐒  𝐊 𝐈 👨🏻‍💼 " //ur sticker watermark packname
 global.author = "𝐈 𝐋 𝐘 𝐀 𝐒  𝐊 𝐈 🌚" //ur sticker watermark author
 
 //Bot theme media
@@ -102,23 +102,23 @@ global.ntilink = []
 //omther
 global.sessionName = 'session'
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🌚','🙊','🙈']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
+    success: 'تم ✓',
+    admin: 'هاد الامر ديال الأدمين!',
+    botAdmin: 'طلعني أدمين أبعدا!',
+    owner: 'هاد الامر ديال مول لبوت !',
+    group: 'هاد الامر كايتستعمل غير فالكروبات!',
     private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
+    bot: 'هاد الامر ماكايخصكش',
+    wait: 'وخا صبر شويو ...',
+    linkm: 'تااا في ناهوا ليان؟؟',
     error: 'Error!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
+    ban: 'راك تبانيتي من المالك ديالي، إلى بغيتي يتحيد ليك البان تواصل معاه.',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    banChat: 'لقد تم حضر البوت من المجموعة ، تواصل مع المالك لفك الحضر'
 }
     global.limitawal = {
     premium: "Infinity",
@@ -134,10 +134,10 @@ global.mess = {
    potionawal: 1
 }
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flaming = 'https://i.pinimg.com/736x/3f/6f/3a/3f6f3ad28fbc8492737d5f3ea908fec2.jpg'
+global.fluming = 'https://d3h48bfc4uelnv.cloudfront.net/public-imgs/social-media-post-13da7a10-7a51-4a1f-8a0b-358aa5a593ac.jpg'
+global.flarun = 'https://i.pinimg.com/736x/08/3b/78/083b7899f3a22e6a74b01763304da20b.jpg'
+global.flasmurf = 't=500&fontsize=100&text='
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
